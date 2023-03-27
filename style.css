@@ -1,0 +1,263 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+html , body{
+    width: 100%;
+    height: 100%;
+    background-color: gainsboro;
+}
+.logo a{
+    text-decoration: none;
+    color: orange;
+}
+
+.logo a:hover{
+    color: orangered;
+}
+
+.navbar{
+    display: flex;
+    height: 59px;
+    justify-content: space-evenly;
+    border-bottom: 2px solid orange;
+}
+
+nav ul li {
+    padding-top: 10px;
+    margin-top: 15px;
+    align-items: center;
+    justify-content: center;
+    display: inline-block;
+}
+
+nav ul li a{
+    color: black;
+    padding-left: 25px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+nav ul li a:hover{
+    color: tomato;
+  /* box-shadow: inset 0px -20px 0px -15px rebeccapurple; */
+}
+
+.navbar .icons{
+    margin-top: 16px;
+    
+    
+    justify-content: space-between;
+    width: 90px;
+}
+
+.icons a{
+    padding-top: 10px;
+    padding-left: 4px;
+    color: black;
+}
+
+.main{
+    margin: 50px;
+}
+
+.main p{
+    text-align: center;
+    font-family: inherit;
+}
+
+
+.main h1{
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 800;
+    text-transform: capitalize;
+}
+
+/* Div 1 portion  */
+.div1{
+    margin-top: 54px;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 150px;
+}
+
+.leftp1{
+    width: 439px;
+    padding: 42px;
+    margin-left: 72px;
+}
+
+#img1{
+    height: 400px;
+    width: 555px;
+    border: 1px solid cyan;
+    clip-path:polygon(10% 0px, 100% 0%, 100% 100%, 0px 100%);
+}
+
+
+/* Div 2 portion  */
+
+.div2{
+    display: flex;
+    margin-top: 54px;
+    justify-content: space-between;
+    padding-right: 150px;
+}
+.rightp1{
+    width: 439px;
+    padding: 42px;
+    margin-right: 0px;
+}
+#img2{
+    height: 400px;
+    width: 521px;
+    margin-left: 64px;
+    border: 1px solid cyan;
+    border-radius: 25%;
+}
+
+
+/* Div 3 Portion  */
+
+.div3{
+    display: flex;
+    margin-top: 54px;
+    justify-content: space-between;
+    /* padding-left: ; */
+}
+
+.leftp2{
+    width: 439px;
+    padding: 42px;
+    margin-left: 72px;
+}
+
+#img3{
+    height: 400px;
+    width: 569px;
+    margin-right: 153px;
+    border-radius: 15px 9px;
+    border: 1px solid cyan;
+}
+
+
+/* Sign up Portion  */
+.signup_div{
+    padding-top: 14px;
+
+    justify-content: space-between;
+    display: flex;
+    height: 90px;
+    width: 100%;
+    /* background-color: #161515; */
+    background-image: linear-gradient(to right ,  rgb(98, 75, 32) , rgb(77, 153, 153));
+}
+
+
+.signup_div h3{
+    color: white;
+    padding-top: 10px;
+    padding-left:  90px;
+    text-transform: capitalize;
+
+}
+
+.signup_div .divinput{
+    margin-right: 172px;
+}
+
+
+
+.signup_div input{
+    height: 40px;
+    width:200px ;
+    margin-top: 10px;
+    padding: 10px;
+    text-align: center;
+    background-color: #433a3a;
+}
+
+.signup_div button{
+    margin-right: 30px;
+}
+
+#btn1{
+    width: 90px;
+    height: 40px;
+    margin-top: 12px;
+    margin-left: 0px;
+    font-size: large;
+    background-color: #f48585;
+    cursor: pointer;
+    border-radius: 7px;
+}
+
+#btn1:hover{
+    font-size: 16px;
+    color: purple;
+}
+
+
+/* footer area  */
+
+
+.companies{
+    display: flex;
+    height: 134px;
+    margin-right: 116px;
+    justify-content: space-around;
+}
+
+.footer h1{
+    text-transform: capitalize;
+}
+
+ul li{
+    text-decoration: none;
+}
+
+.footer ul li a{
+    text-decoration: none;
+    text-transform: capitalize;
+    margin-left: 7px;
+    color: black;
+}
+
+.footer ul li a:hover{
+    color: blueviolet;
+}
+
+.fdiv4 ul{
+    display: flex;
+    justify-content: flex-end;
+    /* flex-direction: column; */
+}
+
+#paytmimg{
+    width: 40px;
+    height: 40px;
+}
+
+#phonepayimg{
+    width: 40px;
+    height: 40px;
+}
+
+#gpayimg{
+    width: 40px;
+    height: 40px;
+}
+
+.copyright{
+    height: 30px;
+    text-align: end;
+    padding-right: 194px;
+    color: rgb(80, 83, 87);
+    background-color: #f5e5e5;
+    padding-top: 5px;
+}
